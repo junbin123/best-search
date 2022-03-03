@@ -4,7 +4,7 @@ export const getProductTrends = async ({ keyword }) => {
   }
   try {
     const response = await fetch(
-      'https://putsreq.com/Jgj0hvrMJnv3YOu6DsMT',
+      'http://3.141.23.218:5000/interview/keyword_search',
       {
         method: 'POST',
         body: JSON.stringify({

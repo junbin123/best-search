@@ -2,11 +2,10 @@
 
 ## 项目说明
 
-体验地址：
+体验地址：https://likeday-f4b2b-1300778416.tcloudbaseapp.com/
 
 ```sh
 ├── app # Redux状态管理
-├── AppRoutes # 封装页面路由
 ├── AppRoutes # 封装页面路由
 ├── components # 所有组件
 ├── pages # 页面组件，HomePage、SearchPage
