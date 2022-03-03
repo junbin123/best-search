@@ -1,3 +1,6 @@
+/**
+ * 图表卡片组件
+ */
 import React from 'react'
 import { ProductTrendsProps, SearchMsvProps } from '../../types/index'
 import ReactECharts from 'echarts-for-react'

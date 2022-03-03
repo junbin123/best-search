@@ -1,3 +1,4 @@
+//
 export interface ProductTrendsProps {
   name: string
   search_msv: SearchMsvProps[]

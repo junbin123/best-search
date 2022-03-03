@@ -18,14 +18,7 @@ code {
 .flex {
   display: flex;
 }
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.justify-center {
-  justify-content: center;
-}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -37,23 +30,4 @@ code {
 }
 .align-center {
   align-items: center;
-}
-
-.absolute {
-  position: absolute;
-}
-.relative {
-  position: relative;
-}
-.fixed {
-  position: fixed;
-}
-
-.color-white {
-  color: #ffffff;
-}
-
-.padding-lr-5 {
-  padding-left: 5px;
-  padding-right: 5px;
 }

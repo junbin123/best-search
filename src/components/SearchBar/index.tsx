@@ -1,3 +1,7 @@
+/**
+ * 搜索栏组件
+ * 支持自适应
+ */
 import React, { FC } from 'react'
 import Autocomplete from '@mui/material/Autocomplete'
 import Button from '@mui/material/Button'

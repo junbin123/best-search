@@ -1,3 +1,7 @@
+/**
+ * 顶部导航栏组件
+ * 实现多个页面共用一个顶部导航栏，详见：src/AppRoutes/MainPageLayout.tsx
+ */
 import React, { FC } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import SearchBar from '../SearchBar'
