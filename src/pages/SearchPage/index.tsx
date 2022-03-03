@@ -21,8 +21,10 @@ function SearchPage() {
   const productTrends: ProductTrendsProps[] = useSelector(selectProductTrends)
 
   const onRequest = useSelector(selectOnRequest)
+
   useEffect(() => {
     dispatch(updateDataAsync(keyword))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [keyword])
 
   const defaultItem: ProductTrendsProps = {

@@ -9,20 +9,27 @@ import SearchIcon from '@mui/icons-material/Search'
 import TextField from '@mui/material/TextField'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { formateKeyword } from '../../utils/commons'
-import { useDispatch } from 'react-redux'
-import { updateDataAsync } from '../../app/productTrends.js'
+import { useDispatch, useSelector } from 'react-redux'
+import {
+  updateDataAsync,
+  updateKeyword,
+  selectKeyword,
+} from '../../app/productTrends.js'
 import './index.css'
 
 const SearchBar: FC = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { pathname } = useLocation()
-  let value = ''
+  const keyword = useSelector(selectKeyword)
+  let value = keyword.replace(/\+/g, ' ')
+
   function handleSearch() {
     if (!value.replace(/\s/g, '')) {
       return
     }
     const keyword = formateKeyword(value)
+    dispatch(updateKeyword(keyword))
     if (/^\/search\//.test(pathname)) {
       // 搜索页直接搜索
       dispatch(updateDataAsync(keyword))
