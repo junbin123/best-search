@@ -37,6 +37,9 @@ function SearchPage() {
   return (
     <div>
       <div className="content-container mt-2 mx-auto px-4 md:px-8 max-w-screen-xl">
+        <div className="text-grey text-xl pl-3 pb-2 pt-6">
+          Related Product Trends
+        </div>
         <div className="flex flex-wrap cursor-pointer mx-auto">
           {(onRequest
             ? Array(4)

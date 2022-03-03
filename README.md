@@ -1,5 +1,7 @@
 # BestSearch
 
+## 体验地址
+
 ## 如何运行？
 
 1. 安装依赖
@@ -16,8 +18,7 @@ yarn start
 yarn build
 ```
 
-## API
+## 项目说明
 
-```
-hello
-```
+- React-Redux
+- 
