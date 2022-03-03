@@ -1,6 +1,18 @@
 # BestSearch
 
-## 体验地址
+## 项目说明
+
+体验地址：
+
+```sh
+├── app # Redux状态管理
+├── AppRoutes # 封装页面路由
+├── AppRoutes # 封装页面路由
+├── components # 所有组件
+├── pages # 页面组件，HomePage、SearchPage
+├── types # typescript类型库
+└── utils # 常用工具函数
+```
 
 ## 如何运行？
 
@@ -18,7 +30,15 @@ yarn start
 yarn build
 ```
 
-## 项目说明
+## 技术栈
 
-- React-Redux
-- 
+- React Redux
+- Typescript
+- React Router
+- Tailwind CSS
+- Material UI
+- echarts
+
+## 预览
+
+![preview](https://img-blog.csdnimg.cn/26cff7e3f7744e5b9f685f7835311b6a.png)

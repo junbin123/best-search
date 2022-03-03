@@ -10004,11 +10004,6 @@ reduce-css-calc@^2.1.8:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
 
-redux-thunk@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmmirror.com/redux-thunk/download/redux-thunk-2.4.0.tgz?cache=0&sync_timestamp=1635214264653&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fredux-thunk%2Fdownload%2Fredux-thunk-2.4.0.tgz#ac89e1d6b9bdb9ee49ce69a69071be41bbd82d67"
-  integrity sha1-rInh1rm9ue5JzmmmkHG+QbvYLWc=
-
 redux-thunk@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.4.1.tgz#0dd8042cf47868f4b29699941de03c9301a75714"
