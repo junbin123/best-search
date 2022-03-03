@@ -23,7 +23,9 @@ function SearchPage() {
   const onRequest = useSelector(selectOnRequest)
 
   useEffect(() => {
-    dispatch(updateDataAsync(keyword))
+    if (!onRequest) {
+      dispatch(updateDataAsync(keyword))
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [keyword])
 
