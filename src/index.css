@@ -14,20 +14,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.flex {
-  display: flex;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-.justify-end {
-  justify-content: flex-end;
-}
-.justify-start {
-  justify-content: flex-start;
-}
-.align-center {
-  align-items: center;
-}

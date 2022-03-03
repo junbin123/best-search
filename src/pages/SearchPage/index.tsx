@@ -25,11 +25,23 @@ function SearchPage() {
     dispatch(updateDataAsync(keyword))
   }, [keyword])
 
+  const defaultItem: ProductTrendsProps = {
+    name: 'name',
+    search_msv: [],
+    growth: 10,
+    group: 'group',
+    update_dt: '2022',
+  }
   return (
     <div>
       <div className="content-container mt-2 mx-auto px-4 md:px-8 max-w-screen-xl">
         <div className="flex flex-wrap cursor-pointer mx-auto">
-          {productTrends.map((item) => (
+          {(onRequest
+            ? Array(4)
+                .fill(defaultItem)
+                .map((i, idx) => ({ ...i, name: idx }))
+            : productTrends
+          ).map((item) => (
             <div
               className="w-full h-auto p-2 lg:w-1/3 xl:w-1/4 md:w-1/2 flex flex-col justify-center items-center min-w-[50px]"
               key={item.name}

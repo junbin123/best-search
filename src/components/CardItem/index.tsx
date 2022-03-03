@@ -43,7 +43,7 @@ function CardItem(props: ProductTrendsProps) {
   }
   return (
     <div className="w-full h-full pt-4 rounded border border-gray-200 shadow-lg shadow-indigo-500/40 overflow-hidden">
-      <div className="px-6 text-xl flex w-full justify-between align-center">
+      <div className="px-4 text-xl flex w-full justify-between items-center">
         <div className="">
           <div className="text-normal font-bold text-2xl">{props.name}</div>
           <div className="text-grey text-sm">
