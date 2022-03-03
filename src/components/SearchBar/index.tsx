@@ -49,7 +49,7 @@ const SearchBar: FC = () => {
     value = val
   }
   return (
-    <div className="search-box flex max-w-screen-lg w-3/5">
+    <div className="search-box flex max-w-screen-lg w-full sm:w-3/5">
       <Autocomplete
         className="flex-1 mr-3"
         size="small"

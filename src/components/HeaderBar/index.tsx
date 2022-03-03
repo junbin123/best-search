@@ -25,7 +25,10 @@ export const HeaderBar: FC = () => {
         <div className="hidden sm:block">
           <span className="font-extrabold">Best</span>Search
         </div>
-        <img src={logo} alt="logo" className="w-10 h-10 sm:hidden" />
+
+        <div className="w-10 h-10 sm:hidden">
+          <img src={logo} alt="logo" className="w-10 h-10" />
+        </div>
       </div>
       {pathname !== '/' && <SearchBar />}
     </div>
